@@ -1,0 +1,116 @@
+@media (max-width: 1200px){
+	.logo{
+		text-align: center;
+	}
+	.disc-about p:nth-child(1){
+		padding: 5px 10px;
+	}
+	.disc-about p:nth-child(2){
+		padding: 5px 10px;
+		font-size: 18px;
+	}
+	.disc-about p:nth-child(3){
+		padding: 5px 10px;
+		font-size: 18px;
+	}
+	.disc-about p:nth-child(4){
+		padding: 5px 10px;
+		font-size: 18px;
+	}
+	.disc-about p:nth-child(5){
+		padding: 5px 10px;
+		font-size: 18px;
+		margin: 0;
+	}
+	.disc-customer p:nth-child(1){
+		 padding: 60px 0 80px 0;
+		 color: #fff;
+	}
+	.disc-customer p:nth-child(2) {
+    padding: 0 70px 64px 70px;
+    text-align: center;
+    font-family: 'yantramanavthin',sans-serif;
+    font-size: 25px;
+    color: #fff;
+   }
+   .disc-customer p:nth-child(3) {
+   		font-size: 25px;
+   		color: #fff;
+   		margin: 0;
+   }
+   .text_boy p:nth-child(1) {
+        padding: 200px 101px 70px 100px;
+}
+.why_plae:before{
+	display: none;
+}
+.location-main .line:nth-child(2){
+	display: flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.location-main .line:nth-child(3){
+	display: none;
+}
+.location-main .line:nth-child(4){
+	display: none;
+}
+
+@media (max-width: 800px){
+	.logo{
+		padding-top: 30px;
+	}
+	.disc-about{
+		width: 100%;
+		float: none;
+		background: url(../img/leg.jpg)no-repeat;
+		height: auto;
+	}
+	
+	.picture-about,
+	.picture-customer,
+	.boy-picture{
+		display: none;	
+	}
+	.disc-customer{
+		width: 100%;
+		float: none;
+		background: url(../img/girl.jpg)no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: auto;
+	}
+	
+	.text_boy{
+		width: 100%;
+		float: none;
+		background: url(../img/boy.jpg)no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: auto;
+		color: #fff;
+	}
+	.title-slide{
+		padding: 70px 0 75px 0;
+	}
+	.sl-count p{
+		    padding-top: 55px;
+	}
+	.nav-menu{
+		top: 190px;
+		left: 50%;
+		transform: translate(-50%,0);
+		width: 300px;
+		text-align: center;
+	}
+	.nav-menu li{
+		display: inline-block;
+		margin-bottom: 0;
+		margin-right: 8px;
+	}
+	.nav-menu li:last-child{
+		margin-right: 0;
+	}
+
+}
